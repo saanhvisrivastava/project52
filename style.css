@@ -1,0 +1,67 @@
+
+
+h1{
+    color:#808080
+}
+.header{
+    background-color:#7fffd4;
+    display: flex;
+    justify-content: space-between;
+    padding-left:40px;
+    padding-top:30px;
+    padding-bottom:20px;
+}
+.grid{
+    background-color:#7fff00;
+    
+    display:flex;
+    justify-content:space space-evenly;
+    flex-wrap: wrap;
+    margin:10px;
+}
+
+a :link{
+    color:white;
+   }
+   a:visited{
+       color:white;
+   }
+
+.grid p{
+    text-align:center;
+    color: #f70000
+}
+.subhead{
+    background-color: seagreen;
+    color:#ff00aa;
+    text-align:center;
+    padding:20px;
+}
+body{
+    background-color:#808080;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column-reverse ;
+    justify-content: space-evenly;
+    padding-right:20px
+}
+
+.item{
+    position:relative;
+}
+.item p{
+    position:absolute;
+    top:60%;
+    left:10%;
+    top:20%;
+   
+    opacity:0;
+   }
+.item:hover p{
+    opacity:1;
+}
+.item:hover img{
+    transform:scale(1.2);
+}
